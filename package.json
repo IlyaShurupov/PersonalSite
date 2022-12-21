@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://ilyashurupov.github.io/PersonalSite/",
+  "base" : "PersonalSite",
   
   "scripts": {
     "dev": "vite",
@@ -18,6 +19,8 @@
   "dependencies": {
     "i": "^0.3.7",
     "npm": "^9.2.0",
-    "or": "^0.2.0"
+    "or": "^0.2.0",
+    "three": "^0.147.0",
+    "three-gltf-loader": "^1.111.0"
   }
 }
