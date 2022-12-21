@@ -78,7 +78,7 @@ const loader = new GLTFLoader();
 
 var mixer = null;
 // Load the GLB file
-loader.load('https://ilyashurupov.github.io/funny_neurons/tmp/cube.glb', function ( gltf ) {
+loader.load('/PersonalSite/cube.glb', function ( gltf ) {
 
   // Extract the animation clips from the model
   const animations = gltf.animations;
