@@ -8,7 +8,6 @@ import { Vector3 } from "three";
 
 const raycaster = new THREE.Raycaster();
 
-
 // Set up the scene, camera, and renderer
 const clock = new THREE.Clock();
 
@@ -137,7 +136,6 @@ window.addEventListener('mouseup', (event) => {
 
 	if (intersects.length) {
     console.log("redirect");
-    goToPage("./tmp/portfolio.html");
   }
   
 });
