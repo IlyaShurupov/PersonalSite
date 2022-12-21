@@ -8,6 +8,7 @@ import { Vector3 } from "three";
 
 const raycaster = new THREE.Raycaster();
 
+
 // Set up the scene, camera, and renderer
 const clock = new THREE.Clock();
 
@@ -26,7 +27,7 @@ scene.add(pointLight);
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
 camera.position.x = -5;
 
-console.log("s")
+console.log("ss")
 
 const renderer = new THREE.WebGLRenderer({ canvas: document.getElementById('bg'), antialias: true });
 renderer.setSize(window.innerWidth, window.innerHeight);
